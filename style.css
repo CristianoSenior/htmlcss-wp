@@ -6,6 +6,7 @@
 }
 
 body{
+  font-family: Montserrat;
   background-image: url("img/legno.png");
 }
 
@@ -15,29 +16,37 @@ header{
   background-image: url("img/foresta.jpg");
   background-size: cover;
   border: 10px solid white;
+  position: relative;
 }
 
 h1{
   position: absolute;
+  top:50%;
   left:50%;
   transform:translate(-50%, -50%);
-
 }
 
 h3{
   position: absolute;
-  top:25%;
+  top:50%;
   left:50%;
   transform:translate(-50%, -50%);
+  margin-top: 25px;
+}
 
+nav{
+  position: relative;
+  height: 48px;
 }
 
 .barretta{
-  background-color: grey;
-  height: 50px;
+  background-color:#504741;
   margin-bottom: 10px;
   margin-top: none;
+  text-align: center;
 }
+
+
 
 main{
   background-color: green;
@@ -70,17 +79,14 @@ footer{
   float: left;
 }
 
-
 .secondacolonna{
   background-color: red;
   width: 20%;
-  height: 270px;
+  height: 150px;
   float: left;
   margin-left: 5%;
   position: relative;
 }
-
-
 
 .secondacolonna2{
   background-color: purple;
@@ -96,4 +102,32 @@ footer{
   position:absolute;
   left: 50%;
   top: 0%;
+}
+
+.barretta > ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+
+.barretta > ul > li {
+  display: inline-block;
+  padding: 0;
+  width: 100px;
+}
+
+nav li>a{
+  display: none;
+}
+
+nav li:hover a{
+ display: inline-block;
+ float: left;
+ background-color: brown;
+ width: 250px;
+}
+
+nav li a:first-child{
+  margin-top: 12.3px;
+
 }
