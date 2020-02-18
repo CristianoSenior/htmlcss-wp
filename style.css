@@ -1,0 +1,99 @@
+*{
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+
+}
+
+body{
+  background-image: url("img/legno.png");
+}
+
+header{
+  background-color: yellow;
+  height: 200px;
+  background-image: url("img/foresta.jpg");
+  background-size: cover;
+  border: 10px solid white;
+}
+
+h1{
+  position: absolute;
+  left:50%;
+  transform:translate(-50%, -50%);
+
+}
+
+h3{
+  position: absolute;
+  top:25%;
+  left:50%;
+  transform:translate(-50%, -50%);
+
+}
+
+.barretta{
+  background-color: grey;
+  height: 50px;
+  margin-bottom: 10px;
+  margin-top: none;
+}
+
+main{
+  background-color: green;
+}
+
+main::after{
+  content: "";
+  display: table;
+  clear:both;
+}
+
+footer{
+  background-color: grey;
+  height: 150px;
+  margin-top: 10px;
+}
+
+.primacolonna{
+  background-color: purple;
+  width: 20%;
+  height: 200px;
+  float: left;
+  margin-right: 5%;
+}
+
+.colonnacentrale{
+  background-color: blue;
+  width: 50%;
+  height: 600px;
+  float: left;
+}
+
+
+.secondacolonna{
+  background-color: red;
+  width: 20%;
+  height: 270px;
+  float: left;
+  margin-left: 5%;
+  position: relative;
+}
+
+
+
+.secondacolonna2{
+  background-color: purple;
+  width: 20%;
+  height: 270px;
+  float: left;
+  margin-left: 5%;
+  float : left;
+  margin-top: 20px;
+}
+
+.testocentarto{
+  position:absolute;
+  left: 50%;
+  top: 0%;
+}
